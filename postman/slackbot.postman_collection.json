@@ -1,0 +1,105 @@
+{
+	"id": "20f00a44-f974-c540-fbc1-4a5d71aff289",
+	"name": "slackbot",
+	"description": "",
+	"order": [
+		"73805ad4-a96d-7898-98df-856572cc376a",
+		"be18cde5-d6c8-2680-2e61-279c3dd33e53"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1606468721645,
+	"owner": "12423124",
+	"public": false,
+	"requests": [
+		{
+			"id": "73805ad4-a96d-7898-98df-856572cc376a",
+			"headers": "Authorization: Bearer xoxp-1523807783798-1527450767029-1517735345303-cb8197df8f12900e5ee549548694dd31\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer xoxp-1523807783798-1527450767029-1517735345303-cb8197df8f12900e5ee549548694dd31",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://slack.com/api/reminders.add",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "20f00a44-f974-c540-fbc1-4a5d71aff289",
+			"data": [
+				{
+					"key": "text",
+					"value": "hello test test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "https://slack.com/api/reminders.add",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1606468723500,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "be18cde5-d6c8-2680-2e61-279c3dd33e53",
+			"headers": "Authorization: Bearer xoxp-1523807783798-1527450767029-1525822560294-a9b6588d4458bb85525fb09eeb1fa431\n//bot: B01GCBMMC72\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer xoxp-1523807783798-1527450767029-1525822560294-a9b6588d4458bb85525fb09eeb1fa431",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "bot",
+					"value": "B01GCBMMC72",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "https://slack.com/api/bots.info",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "20f00a44-f974-c540-fbc1-4a5d71aff289",
+			"data": [
+				{
+					"key": "bot",
+					"value": "B01GCBMMC72",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "https://slack.com/api/bots.info",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1606471980653,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
